@@ -112,18 +112,15 @@ Crisis-Intelligence-AI/
 │   ├── data_images/        # Disaster imagery for the demo
 │   └── data_logs.txt       # Text logs matching the images
 ├── documents/              # Project Report & System Design PDF
+│   ├── Final_Report.pdf    
+│   └── Architecture.png    
 ├── app.py                  # Main Streamlit Application
 ├── ingest_bulk.py          # Data Ingestion Script
 ├── requirements.txt        # Python Dependencies
-└── README.md               # Documentation
-
+└── README.md               # Documentation           
 ```
 
 ## ⚠️ Limitations
 
 * **API Dependency:** Requires internet connectivity for Google Gemini and Qdrant Cloud.
 * **Visual Thresholds:** Low-confidence image matches (score < 0.25) are suppressed to prevent misinformation.
-
-## 📄 License
-
-This project is open-source under the MIT License.
