@@ -1,0 +1,61 @@
+Kerala Control Room: Emergency water-rescue ongoing in Idukki (Kottagiri sector); 4 boats deployed, bilge pumps requested, 120 civilians reported stranded on mid-slope terraces.
+Mumbai BMC: Severe water-logging at Andheri subway and Sion-Worli link; traffic diversion enacted, pumps operating at full capacity, sandbagging underway at low-lying junctions.
+Odisha SDRF: Cyclonic depression advisory for Puri coast; immediate evacuation of coastal huts initiated, tide surge modelling indicates 1.2–1.5 m surge potential—coastal alert level raised.
+Uttarakhand Police: Landslide at NH-109 near Chamoli km 42+300; road blocked, slope stability team requested, NDRF Team 2 mobilised for boulder clearance and victim search.
+Assam Rifles: Riverbank erosion at Dhubri sector; embankment breach detected at chainage 12.4 km, temporary cofferdam being planned, civilian evacuation to higher ground started.
+NDRF Team 4: Reached landslide site in Chamoli; mechanical winches and cutting gear in use, primary search lanes opened, casualty triage point established.
+Karnataka SDRF: Flash flood in Yellapur taluk; bridge SC-B collapsed at span 3, two vehicles submerged, boat teams conducting house-to-house evacuation, potable water packets en route.
+Gujarat Control Room: Structural collapse in Bhuj old town; masonry collapse of heritage structure, collapse zone cordoned, urban search & rescue (USAR) canine teams deployed.
+Tamil Nadu Fire & Rescue: Major urban fire in Coimbatore textile mill; multiple units on scene, aerial ladder operations active, hazardous material (hazmat) monitoring for combusted chemicals initiated.
+West Bengal Police (Kolkata): Flooding in Tollygunge and Park Circus; rescue raft convoy transporting vulnerable residents to relief camp, water contamination advisory issued.
+Maharashtra Disaster Mgmt: Landslide above Lonavala Ghats at km 17; protective berm failed, slope anchor team requested, traffic on Pune–Mumbai rail line suspended.
+Andhra Pradesh SDRF: Cyclone approach to Vishakhapatnam; pre-emptive evacuation of low-lying mandals, temporary shelters readied with medical and power backup.
+Telangana Fire: Multi-storey building collapse in Hyderabad Sec-45; heavy spreader and cutters employed, immediate structural shoring ordered, casualties being extricated.
+Bihar Control Room: River Ganga at Patna rising rapidly; water level 0.9 m above danger mark, sluice gates opened upstream, flood mitigation pumps dispatched.
+Punjab Police: Urban fire in Ludhiana market complex; gas detectors in use, gas-supply isolation confirmed, rescue ladder teams conducting interior search.
+Himachal Pradesh SDRF: Avalanche threat near Rohtang pass; road clearance paused, air reconnaissance reporting unstable snowpack, stranded vehicles being recovered by towing teams.
+Jammu & Kashmir Police: Earthquake-induced collapse in Kishtwar periphery; aftershock advisory active, emergency medical teams (EMTs) setting up mobile OR at staging area.
+Goa Coast Guard: High wave warning after offshore storm; fishing vessels ordered to harbour, reconnaissance flight scheduled for shoreline damage assessment.
+Navy (Andaman Zone): Tsunami run-up signs in North Andaman after regional event; immediate shoreline inspection, public instructed to move inland 500 m.
+Chhattisgarh Control Room: Mine pit wall collapse at Korba; one miner missing, confined space rescue protocol activated, breathing apparatus and gas monitors en route.
+Madhya Pradesh SDRF: Bridge failure on NH-46 near Hoshangabad; structural engineers requested, detour signage deployed, load restrictions enforced on nearby bridges.
+Rajasthan Fire: Urban fire at textile godown in Jaipur; smoke plume monitored, evacuations of adjacent residential blocks, foam units requested for possible petroleum products.
+Odisha Coast Guard: High tide warning issued for Puri district due to approaching depression; harbour vessels sheltered, shoreline watch teams activated.
+Kerala Ops: Air-lifting requested for stranded civilians in Idukki (Upper Devikulam grid); two ALH/MI-17 sorties requested; medical evacuation priority for elderly and injured.
+Assam State Disaster Cell: Flooding in Kaziranga perimeter villages; rhino corridor closed, human relocation to community centres in progress, veterinary teams on stand-by.
+Meghalaya Police: Landslide on Shillong–Nongpoh road at KP 9; cutting and scaling required, geotech team requested to assess slope; alternate route advised.
+Sikkim Control: Cloudburst event reported in North Sikkim (Lachen sector); multiple washouts on mountain trails, helicopter medevac requested for isolated camps.
+Nagaland SDRF: Urban collapse at Dimapur residential block; electrical hazard mitigated, structural assessment ongoing, 10 occupants unaccounted — immediate search priority.
+Manipur Police: River Imphal overflow; water levels at 1.3 m above warning; boats and lifejackets being distributed to affected wards.
+Tripura Control: Cyclonic gust damage in Agartala; roof failures and fallen power poles, emergency power crews mobilised to restore critical services.
+Arunachal Pradesh SDRF: Hill-slope failure near Bomdila after heavy rain; access limited, satellite comms set up for remote coordination, food and water drops scheduled.
+Bihar NDRF Liaison: Train derailment near Hajipur due to track washout; multiple coaches overturned, extrication priority for trapped passengers, railway emergency unit coordinating.
+Mizoram Police: Urban fire in Aizawl high-density market; narrow lanes restricting appliance access, manual containment initiated, flare-gas detectors deployed.
+Haryana Control: Flash flood in Karnal lowlands; irrigation canal overtopping detected, breach mitigation team with polymer geotextile en route.
+Uttar Pradesh (Kanpur Ops): Multi-storey building collapse after gas explosion in residential block; fire suppressed, USAR teams performing void search, hazardous gas monitors reporting safe levels.
+Delhi Fire Service: Collapse of temporary structure at wedding hall in East Delhi; mass casualty management (MCM) activated, triage zone and casualty collection point established.
+Andhra Pradesh Coast Guard: Storm surge advisory for Nellore; shoreline evacuation of fishers, real-time tide gauges reporting +0.8 m anomaly.
+Kerala Coastal Police: Boat capsizing at Kozhikode backwaters; dive teams deployed, 7 persons missing presumed swept into channel, water turbidity hampering search.
+Maharashtra NDRF: Flood rescue in Raigad district; inflatable boats in serial rescue, water contaminated—chlorination units requested at shelter points.
+West Bengal SDRF: Landslide at Kalimpong near tea estates; slope monitoring sensors show progressive movement, residents in red-zone ordered to immediate evacuation.
+Odisha Police: Coastal road collapse near Ganjam due to scouring; traffic closure, emergency geotechnical survey requested, temporary bypass design under consideration.
+Karnataka State Control: Cyclone remnants causing flash floods in Mangalore; airport operations suspended, relief distribution points established.
+Telangana EMS: Industrial fire at Ranga Reddy chemical warehouse; hazmat team on scene, evacuation radius set to 500 m, atmospheric monitoring for toxic plume.
+Gujarat Disaster Cell: Earthquake damage assessment ongoing in Kutch; multiple masonry cracks and partial collapses of old structures, temporary shelters opened, power grid check in progress.
+Punjab SDRF: Flooding in Amritsar outskirts; sewer overflow compounding floodwaters, sanitation teams requested to prevent waterborne disease outbreak.
+Himachal Ops: Flood inundation along Beas river near Kullu; river gauge reading critical, temporary dyke reinforcement using gabion mattresses initiated.
+Assam Health Network: Cholera risk notification for flood-affected Dhubri camps; rehydration corners and antibiotics stockpiles being distributed.
+Uttarakhand Control: Uttarkashi flash flood damage at Kedarnath approach; debris flow blocked river channel, controlled breaching plan under review to prevent upstream inundation.
+Rajasthan SDRF: Desert storm damage in Jaisalmer outskirts; transportable shelters and water trucks dispatched to nomadic settlements.
+Jharkhand State Ops: Coal-pit flood in Dhanbad periphery; pump mobilisation ordered, rescue ladders dispatched, methane levels being monitored.
+Tamil Nadu Health & EMS: Mass casualty triage at Chennai relief camp; cold chain for vaccines established, vector control measures initiated due to stagnant water.
+Madhya Pradesh Control Room: Dam overflow alert at Bargi reservoir; controlled release schedule communicated to downstream districts, evacuation of floodplain villages initiated.
+Bihar Flood Cell: Embankment seepage at Supaul sector; sandbag reinforcement and temporary cutoff wall in progress, hydrograph modelling updated.
+Goa SDRF: Cliff collapse at coastal stretch near Anjuna; tourist area evacuated, coastal slope fail indicators show progressive retrogression, warning signage installed.
+Andaman & Nicobar Disaster Control: Tsunami hazard advisory cleared but shoreline debris widespread; multipurpose crafts carrying relief kits to impacted islets.
+Sikkim SDRF: Rockfall fan inundation in Pelling valley; roads obstructed by boulder field, mechanical excavator requested for clearing to restore ambulance access.
+Kerala Health Dept: Waterborne disease surveillance active in Ernakulam camps; potable water tankers and ORS points increased, IEC messaging dispatched.
+NDRF HQ: National coordination for multiple state incidents; high-priority asset allocation: 6 USAR teams, 12 boats, 3 choppers, IMT deployed to hotspot clusters.
+Central Water Commission Liaison: River network cumulative modelling indicates potential simultaneous flood risk in Ganga and Brahmaputra tribs; inter-state alert advisory circulated.
+Navy Western Fleet: Amphibious support on standby for Maharashtra coastal evacuations; LCU prepped for heavy equipment transport to cut off islands.
+Railway Ops Control: Track washout impacts on Konkan and North-Eastern corridors; sectional speed restrictions and passenger advisories issued until inspections complete.
