@@ -170,7 +170,7 @@ Crisis-Intelligence-AI/
 │   └── data_logs.txt       # Text logs matching the images
 ├── documents/              # Project Report & System Design PDF
 │   ├── Final_Report.pdf    
-│   └── Architecture.png    
+│   └── architecture.png    
 ├── app.py                  # Main Streamlit Application
 ├── ingest_bulk.py          # Data Ingestion Script
 ├── requirements.txt        # Python Dependencies
