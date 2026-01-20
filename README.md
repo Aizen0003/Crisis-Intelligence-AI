@@ -1,4 +1,3 @@
-```markdown
 # 🚨 Crisis Intelligence Command Center
 **A Multimodal RAG System for National Disaster Response**
 
