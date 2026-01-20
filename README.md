@@ -33,6 +33,63 @@ When a user asks a question, the system performs two simultaneous vector searche
 - **Reasoning:** **Google Gemini 1.5 Flash** synthesizes the evidence into a final response.
 - **Safety:** Negative constraints (e.g., "Don't show...") function as a final guardrail.
 
+### 4. Diagram
+```mermaid
+graph LR
+    %% -- STYLING DEFINITIONS --
+    classDef ingest fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef store fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    classDef process fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef user fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+
+    %% -- LAYER 1: INGESTION --
+    subgraph L1 ["Layer 1: Dual-Stream Ingestion"]
+        direction TB
+        RAW_TXT["📄 Text Logs<br/>(data_logs.txt)"]:::ingest
+        RAW_IMG["🖼️ Disaster Images<br/>(/data_images)"]:::ingest
+        
+        MODEL_TXT["⚙️ Encoder: MiniLM-L6-v2"]:::ingest
+        MODEL_IMG["⚙️ Encoder: CLIP ViT-B-32"]:::ingest
+        
+        RAW_TXT --> MODEL_TXT
+        RAW_IMG --> MODEL_IMG
+    end
+
+    %% -- LAYER 2: VECTOR STORAGE --
+    subgraph L2 ["Layer 2: Qdrant Memory"]
+        Q_TXT[("🗄️ Collection:<br/>user_episodic_memory")]:::store
+        Q_IMG[("🗄️ Collection:<br/>disaster_multimodal")]:::store
+        
+        MODEL_TXT -- "384d Vector" --> Q_TXT
+        MODEL_IMG -- "512d Vector" --> Q_IMG
+    end
+
+    %% -- LAYER 3: REAL-TIME INTERACTION --
+    subgraph L3 ["Layer 3: RAG Inference"]
+        UI(("👤 Responder<br/>(Streamlit UI)")):::user
+        
+        SEARCH_LOGIC{"🔍 Parallel Search"}:::process
+        
+        FILTER_LOGIC{"🛑 Threshold Filter<br/>(Text > 0.40 | Img > 0.25)"}:::process
+        
+        LLM["🧠 Google Gemini<br/>2.5 Flash"]:::process
+        
+        UI -- "Query: 'Show floods'" --> SEARCH_LOGIC
+        
+        SEARCH_LOGIC -- "Semantic Search" --> Q_TXT
+        SEARCH_LOGIC -- "Visual Search" --> Q_IMG
+        
+        Q_TXT -. "Retrieved Logs" .-> FILTER_LOGIC
+        Q_IMG -. "Retrieved Photos" .-> FILTER_LOGIC
+        
+        FILTER_LOGIC -- "Unified Context" --> LLM
+        LLM -- "Grounded Response" --> UI
+    end
+
+    %% -- CROSS-LAYER LINKS --
+    %% (These are defined above but laid out here for clarity)
+```
+
 ---
 
 ## 🛠️ Installation & Setup
