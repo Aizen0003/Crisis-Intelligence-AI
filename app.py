@@ -13,7 +13,7 @@ load_dotenv()
 st.set_page_config(page_title="Disaster Response AI", layout="wide")
 st.title("🚨 Crisis Intelligence Command Center")
 
-# --- INITIALIZATION (Cached for speed) ---
+# --- Caching for speed ---
 @st.cache_resource # this is critical because Streamlit reruns the entire script every time a user interacts with a button or slider. Without caching, your app would try to reconnect to Qdrant or reload your AI models on every single click, making it extremely slow.
 def load_models():
     # Text Encoder (Day 3)
@@ -28,7 +28,7 @@ def load_models():
     GEMINI_KEY = os.getenv("GEMINI_API_KEY")
     g_client = genai.Client(api_key=GEMINI_KEY)
 
-    # --- SMART INITIALIZATION ---
+
     collections_to_init = {
         "user_episodic_memory": 384, 
         "disaster_multimodal": 512
@@ -55,7 +55,7 @@ with st.sidebar:
 
     if st.button("🔄 Start New Scenario"):
         # 1. Clear ONLY User/Assistant logs
-        # This keeps your 'system_report' (Base Data) and all Images safe!
+        # This keeps 'system_report' (Base Data) and all Images safe
         try:
             q_client.delete(
                 collection_name="user_episodic_memory",
@@ -82,7 +82,7 @@ with st.sidebar:
 
 # --- MAIN INTERFACE: CHAT ---
 
-# How it works
+# working explanation: 
 # st.session_state: This is a specialized dictionary provided by Streamlit that persists across reruns for as long as the user's browser tab is open.
 
 # if "messages" not in ...: This is a safety check. It asks: "Is there already a conversation history started in this session?"
@@ -92,7 +92,7 @@ with st.sidebar:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# --- 1. DISPLAY HISTORY (Redraws everything every time) ---
+# --- 1. DISPLAY HISTORY ---
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
@@ -129,8 +129,8 @@ if prompt := st.chat_input("Ask about a disaster scenario..."):
     with st.chat_message("user"):
         st.markdown(prompt)
     
-    # 2. RETRIEVAL (The "R" in RAG)
-    # A. Search Memory
+    # 2. RETRIEVAL 
+    # Search Memory
     try: 
         query_vec = text_encoder.encode(prompt).tolist()
         mem_hits = q_client.query_points(collection_name="user_episodic_memory", query=query_vec, limit=2).points
@@ -140,12 +140,12 @@ if prompt := st.chat_input("Ask about a disaster scenario..."):
         if h.score > 0.40  # <--- THE NOISE FILTER
     ]
     except Exception as e:
-        # If collection is missing (404), treat it as an empty context
+        # If collection missing (404), treat it as an empty context
         context_list = []
     
     context = "\n".join(context_list) if context_list else "NO RELEVANT DATA FOUND IN DATABASE."
 
-    # B. Search Images (CLIP)
+    # Search Images (CLIP)
     try:
         img_vec = clip_model.encode(prompt).tolist()
         img_hits = q_client.query_points(collection_name="disaster_multimodal", query=img_vec, limit=1).points
@@ -157,7 +157,7 @@ if prompt := st.chat_input("Ask about a disaster scenario..."):
     if img_hits and img_hits[0].score > 0.25:
         visual_context = f"A relevant image was found showing: {img_hits[0].payload['description']}"
 
-    # 3. GENERATION (The "G" in RAG)
+    # 3. GENERATION
     full_prompt = f"""
     You are a Disaster Response Assistant.
 
