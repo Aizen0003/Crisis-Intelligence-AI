@@ -11,11 +11,11 @@ q_client = QdrantClient(url=os.getenv("QDRANT_URL"), api_key=os.getenv("QDRANT_A
 text_encoder = SentenceTransformer('all-MiniLM-L6-v2')
 clip_model = SentenceTransformer('clip-ViT-B-32')
 
-IMAGE_FOLDER = "data_images" # Put your 60 images here
-TEXT_FILE = "data_logs.txt"  # Put your 50 text lines here
+IMAGE_FOLDER = "data_images" 
+TEXT_FILE = "data_logs.txt"  
 
 def bulk_ingest():
-    print("🚀 Starting Bulk Ingestion...")
+    print("Starting Bulk Ingestion")
 
     # --- PART A: IMAGES ---
     if os.path.exists(IMAGE_FOLDER):
